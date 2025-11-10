@@ -1,8 +1,8 @@
 # Shopping Website
 
-یک وب‌سایت فروشگاه آنلاین با معماری جداگانه frontend و backend.
+An online shopping website with separate frontend and backend architecture.
 
-## ساختار پروژه
+## Project Structure
 
 ```
 shopping-website/
@@ -16,9 +16,9 @@ shopping-website/
 
 ### Frontend Development (VS Code)
 
-1. VS Code را باز کنید
-2. پوشه `frontend` را باز کنید
-3. در terminal از دستورات زیر استفاده کنید:
+1. Open VS Code
+2. Open the `frontend` folder
+3. Use the following commands in terminal:
 
 ```bash
 cd frontend
@@ -27,45 +27,45 @@ npm run dev
 
 ### Backend Development (Visual Studio)
 
-1. Visual Studio را باز کنید
-2. فایل `.sln` در پوشه `backend` را باز کنید
-3. پروژه را build و run کنید
+1. Open Visual Studio
+2. Open the `.sln` file in `backend` folder
+3. Build and run the project
 
 ### Git Commands
 
-#### Frontend Changes (از VS Code):
+#### Frontend Changes (from VS Code):
 
 ```bash
-# در VS Code terminal
+# In VS Code terminal
 git add frontend/
-git commit -m "frontend: توضیح تغییرات"
+git commit -m "frontend: description of changes"
 git push origin main
 ```
 
-#### Backend Changes (از Visual Studio):
+#### Backend Changes (from Visual Studio):
 
 ```bash
-# در Visual Studio Package Manager Console یا Command Prompt
+# In Visual Studio Package Manager Console or Command Prompt
 git add backend/
-git commit -m "backend: توضیح تغییرات"
+git commit -m "backend: description of changes"
 git push origin main
 ```
 
-#### همه تغییرات (از هر ویرایشگر):
+#### All Changes (from any editor):
 
 ```bash
 git add .
-git commit -m "update: توضیح کلی تغییرات"
+git commit -m "update: general description of changes"
 git push origin main
 ```
 
-## محیط توسعه
+## Development Environment
 
 - **Frontend**: VS Code + Next.js + TypeScript
 - **Backend**: Visual Studio + ASP.NET Core + Onion Architecture
 - **Version Control**: Git + GitHub
 
-## پورت‌های پیش‌فرض
+## Default Ports
 
 - Frontend: http://localhost:3000
-- Backend: https://localhost:7000 (یا پورت تعین شده در launchSettings.json)
+- Backend: https://localhost:7000 (or port specified in launchSettings.json)
