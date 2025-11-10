@@ -15,15 +15,18 @@ shopping-website/
 ## Development Workflow
 
 ### Frontend Development (VS Code)
+
 1. VS Code را باز کنید
 2. پوشه `frontend` را باز کنید
 3. در terminal از دستورات زیر استفاده کنید:
+
 ```bash
 cd frontend
 npm run dev
 ```
 
 ### Backend Development (Visual Studio)
+
 1. Visual Studio را باز کنید
 2. فایل `.sln` در پوشه `backend` را باز کنید
 3. پروژه را build و run کنید
@@ -31,6 +34,7 @@ npm run dev
 ### Git Commands
 
 #### Frontend Changes (از VS Code):
+
 ```bash
 # در VS Code terminal
 git add frontend/
@@ -39,6 +43,7 @@ git push origin main
 ```
 
 #### Backend Changes (از Visual Studio):
+
 ```bash
 # در Visual Studio Package Manager Console یا Command Prompt
 git add backend/
@@ -47,6 +52,7 @@ git push origin main
 ```
 
 #### همه تغییرات (از هر ویرایشگر):
+
 ```bash
 git add .
 git commit -m "update: توضیح کلی تغییرات"
